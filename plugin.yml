@@ -1,0 +1,9 @@
+main: com.blendycat.quadvotes.VotePlugin
+name: QuadVotes
+depend: [Utils, Votifier, Vault]
+version: 0.0.1
+author: BlendyCat
+commands:
+  vote:
+    description: Shows voting links
+    usage: /<command> [args]
